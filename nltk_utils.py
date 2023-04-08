@@ -1,4 +1,5 @@
 import nltk
+import numpy as np
 
 # nltk.download('punkt')
 
@@ -29,5 +30,5 @@ b = ["How", "is", "my", "health"]
 
 words = ["orgnize","organization","organizing"]
 stemmed_words = [stem(w) for w in words]
-print(stemmed_words)
+# print(stemmed_words)
 
