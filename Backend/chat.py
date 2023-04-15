@@ -33,7 +33,7 @@ print("Let's chat! (type 'quit' to exit)")
 def get_response(msg):
     # sentence = input('You: ')
     # if sentence == "quit":
-    #     break
+    #     break fu
     sentence = tokenize(msg)
     X = bag_of_words(sentence,all_words)
     X = X.reshape(1,X.shape[0])
