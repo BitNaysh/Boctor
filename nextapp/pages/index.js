@@ -109,7 +109,7 @@ export default function Home() {
     <a href="/">Boctor</a>
     </div>
     <div className = {styles.navlinks}>
-    <a href="https://elfin-fireman-b6a.notion.site/FitApp-fb0483aab5f3472895ff8f13aa37abae" target="_blank">Docs</a>
+    <a href="https://elfin-fireman-b6a.notion.site/Boctor-Docs-3aac831e62a947289304c95c476b93f2" target="_blank">Docs</a>
     <a href="https://github.com/BitNaysh/Boctor" target="_blank">GitHub</a>
     </div>
 </div>
