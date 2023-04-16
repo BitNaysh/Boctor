@@ -347,11 +347,7 @@
          "context_set": ""
         },
 
-        {"tag": "Hernia",
-         "patterns": ["What is a hernia?", "What are the symptoms of a hernia?", "How is a hernia diagnosed?", "What are the treatment options for a hernia?", "How long does it take to recover from hernia surgery?"],
-         "responses": ["A hernia occurs when an organ or fatty tissue squeezes through a weak spot in a surrounding muscle or connective tissue. Symptoms of a hernia include a bulge or lump in the affected area, pain or discomfort, and weakness or pressure in the abdomen. Diagnosis is typically done through a physical exam and imaging tests. Treatment options include watchful waiting, lifestyle changes, and surgery. Recovery time from hernia surgery varies but can take several weeks."],
-         "context_set": ""
-        },
+      
 
         {"tag": "Cancer",
          "patterns": ["What is cancer?", "What are the symptoms of cancer?", "How is cancer diagnosed?", "What are the treatment options for cancer?", "What are some common side effects of cancer treatment?"],
@@ -430,8 +426,1590 @@
         "patterns": ["What are the causes of penile pain?", "What are the symptoms of penile pain?", "How is penile pain treated?", "When should I seek medical attention for penile pain?", "Can penile pain be a sign of a more serious condition?"],
         "responses": ["Causes of penile pain may include physical injury, infection, or inflammation. Symptoms of penile pain may include pain during urination or sex, swelling, or discharge. Treatment for penile pain depends on the underlying cause and may involve medication, surgery, or lifestyle changes. Medical attention should be sought if penile pain is severe or accompanied by other symptoms. Penile pain can be a sign of a more serious condition, such as cancer, and should be evaluated by a healthcare provider."],
          "context_set": ""
-        }
+        },
+        
 
+        {"tag": "Cold Urticaria",
+        "patterns": [
+                  "What is Cold Urticaria?",
+                  "What are the symptoms of Cold Urticaria?",
+                  "How to manage Cold Urticaria?",
+                  "Is there any cure for Cold Urticaria?",
+                  "What triggers Cold Urticaria?"
+                ],
+                "responses": [
+                  "Cold urticaria is a skin condition characterized by red, itchy welts or hives that occur after exposure to cold temperatures. Symptoms include itching, swelling, redness, and warmth in the affected area. To manage cold urticaria, avoid exposure to cold temperatures, dress warmly, take antihistamines, and apply corticosteroid creams or ointments to the affected area. While there is no cure for cold urticaria, most cases can be managed with these treatments."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "Colorectal Cancer",
+                "patterns": [
+                  "What is colorectal cancer?",
+                  "What are the symptoms of colorectal cancer?",
+                  "How is colorectal cancer diagnosed?",
+                  "What are the treatment options for colorectal cancer?",
+                  "How to prevent colorectal cancer?"
+                ],
+                "responses": [
+                  "Colorectal cancer is a cancer that starts in the colon or rectum. Symptoms may include changes in bowel habits, blood in the stool, abdominal pain, and unexplained weight loss. Diagnosis is typically done through a combination of a physical exam, colonoscopy, and imaging tests. Treatment options depend on the stage of the cancer and may include surgery, chemotherapy, radiation therapy, or a combination of these. To prevent colorectal cancer, it is recommended to maintain a healthy diet, exercise regularly, and get regular screenings, especially after age 50."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "Cholera",
+                "patterns": [
+                  "What is cholera?",
+                  "What are the symptoms of cholera?",
+                  "How is cholera transmitted?",
+                  "How to prevent cholera?",
+                  "What is the treatment for cholera?"
+                ],
+                "responses": [
+                  "Cholera is an acute diarrheal disease caused by the bacterium Vibrio cholerae. Symptoms include watery diarrhea, vomiting, and dehydration. Cholera is typically transmitted through contaminated water or food, especially in areas with poor sanitation. To prevent cholera, it is important to drink only safe water, practice good hygiene, and avoid raw or undercooked seafood. Treatment involves rehydration with oral rehydration solutions or intravenous fluids, and sometimes antibiotics to shorten the duration of the illness."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "Down Syndrome",
+                "patterns": [
+                  "What is Down syndrome?",
+                  "What are the characteristics of individuals with Down syndrome?",
+                  "How is Down syndrome diagnosed and treated?"
+                ],
+                "responses": [
+                  "Down syndrome is a genetic disorder caused by the presence of an extra chromosome 21. Characteristics of individuals with Down syndrome include intellectual disability, delayed development, distinctive facial features, and an increased risk of certain medical conditions. Down syndrome is diagnosed through genetic testing, and there is no cure for the condition. However, individuals with Down syndrome can benefit from early intervention services, educational programs, and supportive medical care to manage associated health issues."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "Diverticulitis",
+                "patterns": [
+                  "What is diverticulitis?",
+                  "What are the symptoms of diverticulitis?",
+                  "How is diverticulitis diagnosed and treated?"
+                ],
+                "responses": [
+                  "Diverticulitis is a condition where the small pouches in the colon, known as diverticula, become inflamed or infected. Symptoms of diverticulitis may include abdominal pain, fever, nausea, vomiting, and changes in bowel habits. Diagnosis is typically done through a combination of a physical exam, blood tests, and imaging tests. Treatment may involve antibiotics to clear the infection, pain relief medication, and changes in diet to avoid triggering symptoms. In severe cases, surgery may be necessary."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Diverticula",
+                "patterns": [
+                  "What are diverticula?",
+                  "What causes diverticula?",
+                  "Can diverticula be prevented?"
+                ],
+                "responses": [
+                  "Diverticula are small pouches that form in the colon. They are common in older adults, and are thought to be caused by increased pressure in the colon due to constipation or hard stools. Diverticula can be prevented by maintaining a healthy diet with adequate fiber, drinking plenty of water, and exercising regularly to promote regular bowel movements."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Diverticulosis",
+                "patterns": [
+                  "What is diverticulosis?",
+                  "What are the symptoms of diverticulosis?",
+                  "How is diverticulosis treated?"
+                ],
+                "responses": [
+                  "Diverticulosis is a condition where the small pouches in the colon, known as diverticula, are present but not inflamed or infected. Symptoms of diverticulosis may include bloating, constipation, or mild cramping. Treatment may involve dietary changes to increase fiber intake, drinking plenty of water, and regular exercise to promote bowel movements. In some cases, over-the-counter medications may be used to manage symptoms."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "Dementia",
+                "patterns": [
+                  "What is dementia?",
+                  "What are the common types of dementia?",
+                  "What are the symptoms of dementia?",
+                  "How is dementia diagnosed and treated?",
+                  "How can one prevent or slow down the progression of dementia?"
+                ],
+                "responses": [
+                  "Dementia is a term used to describe a decline in cognitive function that interferes with daily activities. The most common types of dementia are Alzheimer's disease, vascular dementia, and Lewy body dementia. Symptoms of dementia may include memory loss, difficulty with language or communication, changes in mood or behavior, and difficulty with complex tasks. Diagnosis typically involves a comprehensive medical evaluation, including cognitive and neurological tests, blood tests, and brain imaging. While there is no cure for dementia, treatments may include medications to manage symptoms, occupational therapy, and lifestyle changes to improve overall health. Prevention or slowing down of dementia can be achieved by maintaining a healthy lifestyle with regular exercise, healthy diet, social engagement, and cognitive stimulation."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Vascular Dementia",
+                "patterns": [
+                  "What is vascular dementia?",
+                  "What are the symptoms of vascular dementia?",
+                  "How is vascular dementia diagnosed and treated?"
+                ],
+                "responses": [
+                  "Vascular dementia is a type of dementia that is caused by reduced blood flow to the brain. Symptoms may include problems with memory, attention, or decision-making, as well as changes in mood or behavior. Diagnosis typically involves a medical evaluation, including brain imaging and blood tests. Treatment may involve medications to manage underlying medical conditions, lifestyle changes, and supportive care to manage symptoms."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Dementia Causes",
+                "patterns": [
+                  "What are the causes of dementia?",
+                  "Can dementia be inherited?",
+                  "What lifestyle factors can contribute to dementia?"
+                ],
+                "responses": [
+                  "The exact causes of dementia are not fully understood, but it is believed that a combination of genetic, environmental, and lifestyle factors may contribute to the development of the condition. While some forms of dementia may have a genetic component, not all cases of dementia are inherited. Lifestyle factors such as smoking, excessive alcohol consumption, poor diet, and lack of physical activity can increase the risk of developing dementia."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Dementia Caregiving",
+                "patterns": [
+                  "How can I care for someone with dementia?",
+                  "What are some tips for dementia caregivers?",
+                  "What resources are available for dementia caregivers?"
+                ],
+                "responses": [
+                  "Caring for someone with dementia can be challenging, but there are many resources available to help. Some tips for dementia caregivers include creating a routine, using simple and clear communication, providing a safe and comfortable environment, and seeking support from family, friends, and healthcare professionals. Resources for dementia caregivers may include support groups, respite care services, and educational programs."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Dementia Stages",
+                "patterns": [
+                  "What are the stages of dementia?",
+                  "How does dementia progress over time?",
+                  "What are the symptoms of late-stage dementia?"
+                ],
+                "responses": [
+                  "Dementia typically progresses through several stages, starting with mild cognitive impairment and progressing to severe dementia. Symptoms may include memory loss, confusion, difficulty with language or communication, changes in mood or behavior, and difficulty with basic tasks such as dressing or eating. Late-stage dementia may involve complete dependence on others for daily activities and may be associated with physical decline and medical complications."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Dyslexia Symptoms",
+                "patterns": [
+                  "What are the common symptoms of dyslexia?",
+                  "How can I tell if my child has dyslexia?",
+                  "What are some signs of dyslexia in adults?"
+                ],
+                "responses": [
+                  "Common symptoms of dyslexia include difficulty with reading, spelling, and writing, as well as trouble with phonological processing and working memory. Children with dyslexia may also have difficulty with language development, and may struggle with other academic subjects. Signs of dyslexia in adults may include difficulty with time management, organization, and completing tasks that involve reading and writing."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Dyslexia Treatment",
+                "patterns": [
+                  "How is dyslexia treated?",
+                  "What are some effective dyslexia treatments?",
+                  "Can dyslexia be cured?"
+                ],
+                "responses": [
+                  "While there is no cure for dyslexia, there are many effective treatments and interventions that can help individuals with dyslexia learn to read and write more effectively. Some of these treatments may include specialized tutoring or instruction, assistive technology, and accommodations in the classroom or workplace. Early identification and intervention is key to the success of dyslexia treatment."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Dyslexia Diagnosis",
+                "patterns": [
+                  "How is dyslexia diagnosed?",
+                  "What tests are used to diagnose dyslexia?",
+                  "Can dyslexia be diagnosed in adults?"
+                ],
+                "responses": [
+                  "Dyslexia is typically diagnosed through a comprehensive evaluation that may include assessments of reading, writing, and language skills, as well as cognitive and academic abilities. Tests used to diagnose dyslexia may include standardized reading and writing assessments, cognitive assessments, and other diagnostic tools. While dyslexia is often diagnosed in childhood, it can also be diagnosed in adults who may have gone undiagnosed or misdiagnosed in the past."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Diphtheria Symptoms",
+                "patterns": [
+                  "What are the symptoms of diphtheria?",
+                  "How can I tell if I have diphtheria?",
+                  "What are the early signs of diphtheria?"
+                ],
+                "responses": [
+                  "Diphtheria is a serious bacterial infection that can cause symptoms such as sore throat, fever, and swollen glands in the neck. The infection can also cause a gray or white film to form in the throat or nose, which can make it difficult to breathe or swallow. In severe cases, diphtheria can lead to heart and nervous system complications."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Diphtheria Treatment",
+                "patterns": [
+                  "How is diphtheria treated?",
+                  "What medications are used to treat diphtheria?",
+                  "Is there a cure for diphtheria?"
+                ],
+                "responses": [
+                  "Diphtheria is typically treated with antibiotics, such as penicillin or erythromycin, which can help to eliminate the bacteria causing the infection. In severe cases, hospitalization may be necessary to monitor breathing and provide supportive care. While there is no cure for diphtheria, prompt treatment can help to prevent serious complications and improve outcomes."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Diphtheria Prevention",
+                "patterns": [
+                  "How can diphtheria be prevented?",
+                  "What vaccines are available to prevent diphtheria?",
+                  "Who should get vaccinated against diphtheria?"
+                ],
+                "responses": [
+                  "Diphtheria can be prevented through vaccination, which is typically given in combination with other vaccines such as tetanus and pertussis. The vaccine is recommended for children and adults, and is often included in routine childhood immunization schedules. In addition to vaccination, good hygiene practices such as frequent handwashing and avoiding close contact with sick individuals can help to reduce the spread of diphtheria."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Depression Symptoms",
+                "patterns": [
+                  "What are the common symptoms of depression?",
+                  "How can I tell if I'm experiencing depression?",
+                  "What are the signs of depression in adults?"
+                ],
+                "responses": [
+                  "Common symptoms of depression include feelings of sadness or hopelessness, loss of interest in activities, changes in appetite or sleep patterns, fatigue, and difficulty concentrating. In some cases, depression can also cause physical symptoms such as headaches or stomach problems. If you are experiencing symptoms of depression, it's important to seek help from a mental health professional."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Depression Treatment",
+                "patterns": [
+                  "How is depression treated?",
+                  "What are some effective treatments for depression?",
+                  "Can depression be cured?"
+                ],
+                "responses": [
+                  "Depression is a treatable condition, and there are many effective treatments available. Treatment may include therapy, medication, or a combination of both. Cognitive-behavioral therapy, which focuses on changing negative thought patterns and behaviors, is often used to treat depression. Antidepressant medications may also be prescribed to help manage symptoms. While there is no cure for depression, with proper treatment and support, many people are able to manage their symptoms and lead fulfilling lives."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Depression Causes",
+                "patterns": [
+                  "What are some common causes of depression?",
+                  "Can depression be caused by genetics?",
+                  "Are there any environmental factors that can contribute to depression?"
+                ],
+                "responses": [
+                  "Depression can have many different causes, including genetic factors, life events such as trauma or loss, and environmental factors such as stress or a lack of social support. Research has shown that there may be a genetic component to depression, and that individuals with a family history of depression may be at higher risk for the condition. Other factors, such as chronic illness or substance abuse, can also increase the risk of developing depression."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Depression and Suicide",
+                "patterns": [
+                  "Can depression lead to suicide?",
+                  "What should I do if I'm feeling suicidal?",
+                  "How can I help someone who is struggling with depression and suicidal thoughts?"
+                ],
+                "responses": [
+                  "Depression is a leading cause of suicide, and individuals with depression may be at higher risk for suicidal thoughts or behaviors. If you or someone you know is feeling suicidal, it's important to seek help immediately. Contact a mental health professional or a crisis hotline for support. If you know someone who is struggling with depression and suicidal thoughts, offer your support and encourage them to seek professional help."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Depression in Children",
+                "patterns": [
+                  "Can children experience depression?",
+                  "What are the signs of depression in children?",
+                  "How is depression in children treated?"
+                ],
+                "responses": [
+                  "Depression can affect individuals of all ages, including children. Signs of depression in children may include irritability, changes in appetite or sleep patterns, difficulty concentrating, and a loss of interest in activities. Treatment for depression in children may include therapy, medication, or a combination of both. It's important for parents and caregivers to seek professional help if they suspect that a child may be experiencing depression."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Ebola Symptoms",
+                "patterns": [
+                  "What are the symptoms of Ebola?",
+                  "How can I tell if I have Ebola?",
+                  "What are the signs of an Ebola infection?"
+                ],
+                "responses": [
+                  "Symptoms of Ebola can include fever, severe headache, muscle pain, weakness, fatigue, diarrhea, vomiting, abdominal pain, and unexplained bleeding or bruising. These symptoms can appear anywhere from 2 to 21 days after exposure to the virus. If you have recently traveled to an area where Ebola is present or have been in contact with someone who has the virus, seek medical attention immediately if you experience any of these symptoms."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Ebola Treatment",
+                "patterns": [
+                  "Is there a cure for Ebola?",
+                  "How is Ebola treated?",
+                  "What are the treatment options for Ebola?"
+                ],
+                "responses": [
+                  "There is no specific cure for Ebola, but supportive care can help manage symptoms and improve outcomes. Treatment may include fluid and electrolyte replacement, pain management, and treatment for secondary infections. In some cases, experimental treatments such as antiviral drugs or plasma transfusions may also be used. If you have been diagnosed with Ebola, it's important to receive prompt medical attention."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Ebola Prevention",
+                "patterns": [
+                  "How can I prevent Ebola?",
+                  "What are some ways to protect myself from Ebola?",
+                  "What precautions should I take to avoid Ebola?"
+                ],
+                "responses": [
+                  "The best way to prevent Ebola is to avoid exposure to the virus. This includes avoiding travel to areas where Ebola is present, avoiding contact with individuals who may have the virus, and practicing good hygiene such as washing your hands frequently. If you are in an area where Ebola is present, take additional precautions such as wearing protective clothing and avoiding contact with bodily fluids or contaminated objects."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Ebola Transmission",
+                "patterns": [
+                  "How is Ebola transmitted?",
+                  "Can Ebola be spread through the air?",
+                  "What are the ways that Ebola can be transmitted?"
+                ],
+                "responses": [
+                  "Ebola is transmitted through direct contact with bodily fluids of a person who has the virus. This can include contact with blood, saliva, vomit, urine, or feces of an infected individual. Ebola can also be transmitted through contact with objects contaminated with the virus, such as needles or syringes. Ebola is not spread through the air or by casual contact, such as shaking hands or sitting next to someone who has the virus."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Ebola Outbreaks",
+                "patterns": [
+                  "What are some recent Ebola outbreaks?",
+                  "Where have there been Ebola outbreaks?",
+                  "How often do Ebola outbreaks occur?"
+                ],
+                "responses": [
+                  "Ebola outbreaks have occurred primarily in Africa, with the largest outbreak in history occurring in West Africa from 2014 to 2016. Other recent outbreaks have occurred in the Democratic Republic of Congo and Guinea. The frequency of Ebola outbreaks is unpredictable, but they tend to occur sporadically and are often associated with factors such as poor healthcare infrastructure, conflict, and poverty."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "Ebola Vaccines",
+                "patterns": [
+                  "Is there a vaccine for Ebola?",
+                  "How effective is the Ebola vaccine?",
+                  "What are the different types of Ebola vaccines?"
+                ],
+                "responses": [
+                  "Several vaccines for Ebola have been developed, including the rVSV-ZEBOV vaccine, which has been shown to be highly effective in clinical trials. Other vaccines are also in development. The rVSV-ZEBOV vaccine is given as a single dose and has been used successfully in several Ebola outbreaks. The vaccine works by triggering an immune response against the virus. It's important to note that while the vaccine is highly effective, it does not provide 100% protection, and it's still important to practice good hygiene and take precautions to avoid exposure to the virus."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "Edema",
+                "patterns": [
+                  "What is Edema?",
+                  "What causes Edema?",
+                  "How to treat Edema?",
+                  "Can Edema be cured?",
+                  "What are the symptoms of Edema?",
+                  "What are the types of Edema?"
+                ],
+                "responses": [
+                  "Edema is a medical condition characterized by the accumulation of fluid in the body's tissues, resulting in swelling. It can be caused by a variety of factors, including injury, pregnancy, heart failure, kidney disease, and liver disease.",
+                  "The symptoms of edema include swelling, puffiness, and tightness in the affected area, as well as skin that appears stretched or shiny. Depending on the underlying cause of edema, treatment may involve diuretics, compression stockings, or lifestyle changes such as reducing salt intake and exercising more frequently. In some cases, surgery may be necessary to remove excess fluid or repair damaged tissue.",
+                  "There are several different types of edema, including peripheral edema (swelling in the arms, legs, hands, and feet), pulmonary edema (fluid in the lungs), cerebral edema (swelling in the brain), and macular edema (swelling in the retina of the eye)."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Epilepsy",
+                "patterns": [
+                  "What is epilepsy?",
+                  "What causes epilepsy?",
+                  "How is epilepsy diagnosed?",
+                  "How is epilepsy treated?",
+                  "What are the types of seizures?",
+                  "What are the warning signs of a seizure?",
+                  "Can epilepsy be cured?"
+                ],
+                "responses": [
+                  "Epilepsy is a neurological disorder characterized by recurrent seizures. Seizures are caused by sudden, abnormal electrical activity in the brain.",
+                  "Epilepsy can be caused by a variety of factors, including brain injury, genetic mutations, and brain tumors. In many cases, the cause of epilepsy is unknown.",
+                  "Epilepsy is typically diagnosed through a combination of medical history, neurological examination, and diagnostic tests such as EEG and MRI.",
+                  "Treatment for epilepsy may involve medication, surgery, or a combination of both. The goal of treatment is to control seizures and improve quality of life.",
+                  "There are several different types of seizures, including focal seizures, generalized seizures, and absence seizures. The type of seizure a person experiences depends on the part of the brain affected by abnormal electrical activity.",
+                  "Some warning signs of a seizure include sudden confusion, staring, loss of consciousness, and muscle spasms.",
+                  "While epilepsy cannot be cured, it can be managed with appropriate treatment."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Epilepsy effects",
+                "patterns": [
+                  "How does epilepsy affect the brain?",
+                  "What are the side effects of epilepsy medication?",
+                  "What is status epilepticus?",
+                  "Can stress trigger seizures in people with epilepsy?",
+                  "Can someone with epilepsy drive a car?",
+                  "What is SUDEP?"
+                ],
+                "responses": [
+                  "Epilepsy can cause changes in the brain that may lead to recurrent seizures. These changes can occur as a result of brain injury, genetic mutations, or other factors.",
+                  "Side effects of epilepsy medication can include dizziness, drowsiness, and mood changes. In some cases, more serious side effects such as liver damage or an allergic reaction may occur.",
+                  "Status epilepticus is a medical emergency characterized by prolonged seizures that last for more than 5 minutes or occur in rapid succession. It requires immediate medical attention.",
+                  "Stress can trigger seizures in some people with epilepsy. It's important for people with epilepsy to learn how to manage stress and practice relaxation techniques.",
+                  "The laws regarding driving and epilepsy vary by country and state. In general, people with epilepsy are required to meet certain criteria before they are allowed to drive.",
+                  "SUDEP stands for Sudden Unexpected Death in Epilepsy. It is a rare but serious complication of epilepsy that can occur when a person with epilepsy dies suddenly and unexpectedly without an apparent cause."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Erectile Dysfunction",
+                "patterns": [
+                  "What is erectile dysfunction?",
+                  "What causes erectile dysfunction?",
+                  "What are the symptoms of erectile dysfunction?",
+                  "How is erectile dysfunction diagnosed?",
+                  "How is erectile dysfunction treated?",
+                  "Can lifestyle changes help with erectile dysfunction?"
+                ],
+                "responses": [
+                  "Erectile dysfunction (ED) is the inability to achieve or maintain an erection sufficient for sexual intercourse. It can occur at any age but is more common in older men.",
+                  "Erectile dysfunction can be caused by a variety of factors, including psychological factors, such as anxiety or depression, and physical factors, such as diabetes or heart disease.",
+                  "The primary symptom of erectile dysfunction is the inability to achieve or maintain an erection. Other symptoms may include reduced sexual desire or premature ejaculation.",
+                  "Erectile dysfunction can be diagnosed through a physical examination, medical history, and possibly blood tests or imaging studies.",
+                  "Treatment for erectile dysfunction may include medication, therapy, or surgery. The choice of treatment will depend on the underlying cause of the condition.",
+                  "Lifestyle changes such as quitting smoking, reducing alcohol consumption, and regular exercise may help improve erectile dysfunction."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Erectile Dysfunction Medication",
+                "patterns": [
+                  "What are the most common medications used to treat erectile dysfunction?",
+                  "What are the side effects of erectile dysfunction medication?",
+                  "Can natural remedies help with erectile dysfunction?",
+                  "What is the role of testosterone in erectile dysfunction?",
+                  "Can stress or anxiety cause erectile dysfunction?"
+                ],
+                "responses": [
+                  "The most common medications used to treat erectile dysfunction are phosphodiesterase type 5 (PDE5) inhibitors, such as sildenafil (Viagra), tadalafil (Cialis), and vardenafil (Levitra).",
+                  "Side effects of erectile dysfunction medication may include headache, flushing, and upset stomach. More serious side effects such as vision loss or hearing loss are rare.",
+                  "There is limited evidence to support the effectiveness of natural remedies for erectile dysfunction, although some may be helpful for some people. It's important to talk to a healthcare provider before trying any natural remedies.",
+                  "Testosterone is a hormone that plays a role in sexual function. Low testosterone levels may contribute to erectile dysfunction, although it is not the only cause of the condition.",
+                  "Stress and anxiety can contribute to erectile dysfunction in some people, although it is not the only cause of the condition."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Erectile Dysfunction Treatment",
+                "patterns": [
+                  "What is penile injection therapy?",
+                  "What is the role of penile implants in treating erectile dysfunction?",
+                  "What is the prognosis for erectile dysfunction?",
+                  "Can erectile dysfunction be a sign of a more serious health condition?",
+                  "What are the psychological effects of erectile dysfunction on a person?"
+                ],
+                "responses": [
+                  "Penile injection therapy involves injecting medication directly into the penis to produce an erection. This method can be effective for some people with erectile dysfunction.",
+                  "Penile implants are devices that are surgically placed in the penis to produce an erection. They may be an option for people who do not respond to other treatments for erectile dysfunction.",
+                  "The prognosis for erectile dysfunction depends on the underlying cause of the condition and the effectiveness of treatment. In some cases, erectile dysfunction may be a sign of a more serious health condition.",
+                  "Erectile dysfunction may be a sign of underlying health conditions such as diabetes, heart disease, or high blood pressure. It's important to talk to a healthcare provider if you are experiencing symptoms of erectile dysfunction.",
+                  "Erectile dysfunction can have psychological effects such as anxiety, depression, and low self-esteem. It can also affect relationships and sexual intimacy."
+                ],
+                "context_set": ""
+              },
+
+              {
+                "tag": "Stomachache",
+                "patterns": [
+                  "What to do if Stomachache?",
+                  "How to cure Stomachache?",
+                  "Which medicine to take for Stomachache?",
+                  "Stomachache remedies"
+                ],
+                "responses": [
+                  "Take an over-the-counter antacid to neutralize stomach acid or a pain reliever such as ibuprofen or acetaminophen. Drink chamomile tea or peppermint tea to help ease stomach discomfort. Eat bland foods such as crackers, toast, or bananas to settle your stomach. Rest in a comfortable position."
+                ],
+                "context_set": ""
+              },
+        
+          
+              
+              {
+                "tag": "Nausea",
+                "patterns": [
+                  "What to do if Nausea?",
+                  "How to cure Nausea?",
+                  "Which medicine to take for Nausea?",
+                  "Nausea remedies"
+                ],
+                "responses": [
+                  "Drink clear fluids such as water or herbal tea to prevent dehydration. Eat small, bland meals such as toast or crackers to avoid further upset stomach. Take over-the-counter anti-nausea medications such as dimenhydrinate or meclizine to reduce nausea symptoms. In cases of severe nausea, prescription medications may be prescribed by a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Constipation",
+                "patterns": [
+                  "What to do if Constipation?",
+                  "How to cure Constipation?",
+                  "Which medicine to take for Constipation?",
+                  "Constipation remedies"
+                ],
+                "responses": [
+                  "Drink plenty of fluids to help soften stools and promote bowel movements. Eat a fiber-rich diet with fruits, vegetables, and whole grains. Take over-the-counter laxatives such as psyllium or docusate to help relieve constipation. In cases of chronic constipation, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Heartburn",
+                "patterns": [
+                  "What to do if Heartburn?",
+                  "How to cure Heartburn?",
+                  "Which medicine to take for Heartburn?",
+                  "Heartburn remedies"
+                ],
+                "responses": [
+                  "Avoid foods that trigger heartburn such as spicy or acidic foods. Eat smaller meals and avoid eating before bedtime. Take over-the-counter antacids such as calcium carbonate or aluminum hydroxide to neutralize stomach acid. In cases of chronic heartburn, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              
+          
+              {
+                "tag": "Earache",
+                "patterns": [
+                  "What to do if Earache?",
+                  "How to cure Earache?",
+                  "Which medicine to take for Earache?",
+                  "Earache remedies"
+                ],
+                "responses": [
+                  "Apply a warm compress to the affected ear to reduce pain and inflammation. Take over-the-counter pain relievers such as acetaminophen or ibuprofen to alleviate earache symptoms. Use ear drops containing antipyrine and benzocaine to reduce pain and discomfort. In cases of bacterial infection, antibiotics may be prescribed by a doctor."
+                ],
+                "context_set": ""
+              },
+          
+        
+          
+            
+          
+              {
+                "tag": "Migraine",
+                "patterns": [
+                  "What to do if Migraine?",
+                  "How to cure Migraine?",
+                  "Which medicine to take for Migraine?",
+                  "Migraine remedies"
+                ],
+                "responses": [
+                  "Rest in a quiet, dark room to reduce migraine pain. Apply a cold compress to the forehead to reduce inflammation. Take over-the-counter pain relievers such as acetaminophen, aspirin, or ibuprofen to alleviate migraine symptoms. Use prescription medications such as triptans or ergotamines to treat severe migraines. In cases of chronic migraines, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Acid Reflux",
+                "patterns": [
+                  "What to do if Acid Reflux?",
+                  "How to cure Acid Reflux?",
+                  "Which medicine to take for Acid Reflux?",
+                  "Acid Reflux remedies"
+                ],
+                "responses": [
+                  "Avoid trigger foods such as spicy or fatty foods, caffeine, and alcohol. Eat smaller, more frequent meals throughout the day. Use over-the-counter antacids such as Tums or Pepcid to alleviate acid reflux symptoms. In cases of chronic acid reflux, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              
+          
+              {
+                "tag": "High Blood Pressure",
+                "patterns": [
+                  "What to do if High Blood Pressure?",
+                  "How to manage High Blood Pressure?",
+                  "Which medicine to take for High Blood Pressure?",
+                  "High Blood Pressure management"
+                ],
+                "responses": [
+                  "Maintain a healthy diet by reducing salt intake and eating nutritious foods such as vegetables, fruits, and whole grains. Exercise regularly to lower blood pressure. Take prescribed medications such as ACE inhibitors or diuretics to manage high blood pressure. Monitor blood pressure regularly and consult a doctor for further management."
+                ],
+                "context_set": ""
+              },
+          
+              
+          
+              {
+                "tag": "Arthritis",
+                "patterns": [
+                  "What to do if Arthritis?",
+                  "How to manage Arthritis?",
+                  "Which medicine to take for Arthritis?",
+                  "Arthritis management"
+                ],
+                "responses": [
+                  "Exercise regularly to maintain joint flexibility and strength. Use hot or cold therapy to alleviate joint pain and stiffness. Take prescribed medications such as NSAIDs or DMARDs to manage arthritis symptoms. Use assistive devices such as braces or splints to support joints. In cases of severe or persistent arthritis, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Acne",
+                "patterns": [
+                  "What to do if Acne?",
+                  "How to cure Acne?",
+                  "Which medicine to take for Acne?",
+                  "Acne remedies"
+                ],
+                "responses": [
+                  "Maintain a healthy diet by reducing dairy and sugar intake. Use topical treatments such as benzoyl peroxide or salicylic acid to manage acne. Avoid picking or squeezing pimples, which can worsen acne. In cases of severe or persistent acne, consult a dermatologist."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Gout",
+                "patterns": [
+                  "What to do if Gout?",
+                  "How to manage Gout?",
+                  "Which medicine to take for Gout?",
+                  "Gout management"
+                ],
+                "responses": [
+                  "Maintain a healthy diet by reducing intake of purine-rich foods such as red meat and seafood. Use ice and elevation to reduce pain and inflammation during gout attacks. Take prescribed medications such as NSAIDs or colchicine to manage gout symptoms. In cases of severe or persistent gout, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Eczema",
+                "patterns": [
+                  "What to do if Eczema?",
+                  "How to cure Eczema?",
+                  "Which medicine to take for Eczema?",
+                  "Eczema remedies"
+                ],
+                "responses": [
+                  "Use moisturizers to keep skin hydrated and avoid irritants such as harsh soaps or detergents. Use topical treatments such as corticosteroids or calcineurin inhibitors to manage eczema symptoms. Avoid scratching or rubbing affected areas, which can worsen eczema. In cases of severe or persistent eczema, consult a dermatologist."
+                ],
+                "context_set": ""
+              },
+          
+              
+              {
+                "tag": "Alzheimer's",
+                "patterns": [
+                  "What to do if Alzheimer's?",
+                  "How to manage Alzheimer's?",
+                  "Which medicine to take for Alzheimer's?",
+                  "Alzheimer's management"
+                ],
+                "responses": [
+                  "Attend therapy or counseling sessions to learn coping mechanisms and strategies to manage Alzheimer's symptoms. Use memory aids such as calendars or reminders to manage daily activities. Take prescribed medications such as cholinesterase inhibitors to manage Alzheimer's symptoms. In cases of severe or persistent Alzheimer's, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+            
+          
+              
+          
+              {
+                "tag": "Osteoporosis",
+                "patterns": [
+                  "What to do if Osteoporosis?",
+                  "How to manage Osteoporosis?",
+                  "Which medicine to take for Osteoporosis?",
+                  "Osteoporosis management"
+                ],
+                "responses": [
+                  "Maintain a healthy diet with sufficient calcium and vitamin D to support bone health. Exercise regularly, including weight-bearing exercises, to strengthen bones. Take prescribed medications such as bisphosphonates or hormone therapy to manage osteoporosis. In cases of severe or persistent osteoporosis, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Gastroenteritis",
+                "patterns": [
+                  "What to do if I have gastroenteritis?",
+                  "How to manage gastroenteritis?",
+                  "Which medicine to take for gastroenteritis?",
+                  "Gastroenteritis management"
+                ],
+                "responses": [
+                  "Stay hydrated by drinking plenty of fluids. Follow a bland, low-fiber diet to avoid exacerbating symptoms. Take over-the-counter medications such as loperamide to manage diarrhea. In cases of severe or persistent gastroenteritis, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Conjunctivitis",
+                "patterns": [
+                  "What to do if I have conjunctivitis?",
+                  "How to manage conjunctivitis?",
+                  "Which medicine to take for conjunctivitis?",
+                  "Conjunctivitis management"
+                ],
+                "responses": [
+                  "Practice good hygiene by washing hands frequently and avoiding touching eyes. Use prescribed or over-the-counter eye drops to manage conjunctivitis symptoms. Use a warm compress to relieve inflammation and discomfort. In cases of severe or persistent conjunctivitis, consult a doctor."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Cell Biology",
+                "patterns": [
+                  "What is cell biology?",
+                  "What are the branches of cell biology?",
+                  "What is the role of cell biology in medicine?"
+                ],
+                "responses": [
+                  "Cell biology is the study of cells, their structure, function, and interactions with their environment. The branches of cell biology include genetics, biochemistry, molecular biology, and microbiology. Cell biology plays a crucial role in medicine by providing insights into the mechanisms of disease and guiding the development of new therapies."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Genetics",
+                "patterns": [
+                  "What is genetics?",
+                  "What are the applications of genetics?",
+                  "How is genetics used in medicine?"
+                ],
+                "responses": [
+                  "Genetics is the study of genes, genetic variation, and heredity in living organisms. The applications of genetics include genetic testing, genetic counseling, and gene therapy. Genetics is used in medicine to identify and diagnose genetic disorders, develop personalized treatments, and conduct research on the causes and treatments of diseases."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Immunology",
+                "patterns": [
+                  "What is immunology?",
+                  "What are the applications of immunology?",
+                  "How is immunology used in medicine?"
+                ],
+                "responses": [
+                  "Immunology is the study of the immune system, including its structure, function, and interactions with pathogens. The applications of immunology include vaccination, immunotherapy, and diagnosis and treatment of autoimmune disorders and infectious diseases. Immunology is used in medicine to develop vaccines, treat cancer, and prevent and treat infectious diseases."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Pharmacology",
+                "patterns": [
+                  "What is pharmacology?",
+                  "What are the branches of pharmacology?",
+                  "How is pharmacology used in medicine?"
+                ],
+                "responses": [
+                  "Pharmacology is the study of how drugs interact with biological systems and the effects of those interactions. The branches of pharmacology include pharmacokinetics, pharmacodynamics, and toxicology. Pharmacology is used in medicine to develop new drugs, evaluate the safety and efficacy of drugs, and optimize drug dosing and administration."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Biotechnology",
+                "patterns": [
+                  "What is biotechnology?",
+                  "What are the applications of biotechnology?",
+                  "How is biotechnology used in medicine?"
+                ],
+                "responses": [
+                  "Biotechnology is the use of living organisms or biological processes to develop products or processes. The applications of biotechnology include drug development, gene therapy, and genetically modified organisms. Biotechnology is used in medicine to develop new drugs, diagnose and treat diseases, and conduct research on the underlying causes of diseases."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Rabies",
+                "patterns": [
+                  "What is rabies?",
+                  "What are the symptoms of rabies?",
+                  "How is rabies transmitted?",
+                  "How is rabies treated?"
+                ],
+                "responses": [
+                  "Rabies is a viral infection that affects the nervous system and is usually spread through the bite of an infected animal. The symptoms of rabies can include fever, headache, muscle weakness, and eventually, paralysis and death. Rabies is usually fatal if not treated promptly. Treatment for rabies includes a series of vaccines and immunoglobulin injections."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Rabies prevention",
+                "patterns": [
+                  "How can I prevent rabies?",
+                  "What should I do if I'm bitten by an animal?",
+                  "What are the risk factors for rabies?"
+                ],
+                "responses": [
+                  "To prevent rabies, it's important to avoid contact with wild or stray animals, and to vaccinate pets against the virus. If you're bitten by an animal, wash the wound thoroughly with soap and water, and seek medical attention immediately. Risk factors for rabies include living or traveling in areas where the virus is common, and working with animals."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Rabies diagnosis",
+                "patterns": [
+                  "How is rabies diagnosed?",
+                  "What tests are used to diagnose rabies?"
+                ],
+                "responses": [
+                  "Rabies is usually diagnosed based on symptoms and a history of exposure to an infected animal. A doctor may also perform laboratory tests, such as a skin biopsy or spinal tap, to confirm the diagnosis. These tests can detect the presence of the virus or antibodies in the blood or spinal fluid."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Rabies transmission",
+                "patterns": [
+                  "How is rabies transmitted?",
+                  "Can rabies be transmitted from person to person?"
+                ],
+                "responses": [
+                  "Rabies is usually transmitted through the bite of an infected animal, although it can also be spread through contact with the animal's saliva or nervous tissue. The virus cannot be spread from person to person, except in rare cases of organ transplantation."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Rabies vaccination",
+                "patterns": [
+                  "What is the rabies vaccine?",
+                  "Who should get the rabies vaccine?",
+                  "What are the side effects of the rabies vaccine?"
+                ],
+                "responses": [
+                  "The rabies vaccine is a series of shots that helps prevent rabies infection. The vaccine is recommended for people who work with animals or are at risk of exposure to the virus. The side effects of the vaccine are usually mild and include soreness, redness, and swelling at the injection site."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "ADHD",
+                "patterns": [
+                  "What is ADHD?",
+                  "What are the symptoms of ADHD?",
+                  "How is ADHD diagnosed?",
+                  "How is ADHD treated?"
+                ],
+                "responses": [
+                  "ADHD stands for Attention Deficit Hyperactivity Disorder. It is a neurodevelopmental disorder that affects both children and adults. The symptoms of ADHD include inattention, hyperactivity, and impulsivity. ADHD is diagnosed based on a thorough evaluation of a person's medical history, symptoms, and behavior. Treatment for ADHD usually involves medication, therapy, or a combination of both."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "ADHD medication",
+                "patterns": [
+                  "What medications are used to treat ADHD?",
+                  "How do ADHD medications work?"
+                ],
+                "responses": [
+                  "The most commonly used medications for ADHD are stimulants, such as methylphenidate and amphetamine. These medications work by increasing the levels of dopamine and norepinephrine in the brain, which helps improve focus and attention. Non-stimulant medications, such as atomoxetine and guanfacine, are also used to treat ADHD."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "ADHD therapy",
+                "patterns": [
+                  "What types of therapy are used to treat ADHD?",
+                  "How can therapy help with ADHD?"
+                ],
+                "responses": [
+                  "Behavioral therapy and cognitive-behavioral therapy are commonly used to treat ADHD. These types of therapy help people with ADHD develop skills and strategies to manage their symptoms, such as improving time management and organizational skills. Therapy can also help with emotional regulation and improving self-esteem."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "ADHD in children",
+                "patterns": [
+                  "How is ADHD treated in children?",
+                  "What are the long-term effects of ADHD in children?"
+                ],
+                "responses": [
+                  "Treatment for ADHD in children usually involves a combination of medication and behavioral therapy. Long-term effects of ADHD in children can include difficulties with social relationships, academic performance, and emotional regulation. Early diagnosis and treatment can help improve outcomes and prevent long-term complications."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "ADHD in adults",
+                "patterns": ["Can adults have ADHD?", "How is ADHD treated in adults?"],
+                "responses": [
+                  "Yes, ADHD can persist into adulthood. Treatment for ADHD in adults usually involves medication and therapy, as well as lifestyle modifications such as exercise and healthy eating. Adults with ADHD may also benefit from support groups and coaching to help manage their symptoms."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Autism",
+                "patterns": [
+                  "What is autism?",
+                  "What are the symptoms of autism?",
+                  "How is autism diagnosed?",
+                  "How is autism treated?"
+                ],
+                "responses": [
+                  "Autism, or Autism Spectrum Disorder (ASD), is a neurodevelopmental disorder that affects communication, social interaction, and behavior. The symptoms of autism can vary, but may include difficulty with social communication, repetitive behaviors, and sensory sensitivities. Autism is diagnosed based on a thorough evaluation of a person's medical history, symptoms, and behavior. Treatment for autism usually involves a combination of therapies, such as behavioral therapy and speech therapy, as well as medication for co-occurring conditions."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Autism causes",
+                "patterns": ["What causes autism?", "Is autism hereditary?"],
+                "responses": [
+                  "The exact cause of autism is unknown, but it is believed to be a combination of genetic and environmental factors. Autism does tend to run in families, which suggests that there may be a genetic component. However, not all cases of autism are hereditary, and environmental factors may also play a role."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Autism therapy",
+                "patterns": [
+                  "What types of therapy are used to treat autism?",
+                  "How can therapy help with autism?"
+                ],
+                "responses": [
+                  "Behavioral therapy, speech therapy, and occupational therapy are commonly used to treat autism. These types of therapy can help individuals with autism improve communication skills, social interactions, and sensory processing. Therapy can also help with emotional regulation and improve overall quality of life."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Autism in children",
+                "patterns": [
+                  "How is autism treated in children?",
+                  "What are the long-term effects of autism in children?"
+                ],
+                "responses": [
+                  "Treatment for autism in children usually involves a combination of therapies, such as behavioral therapy and speech therapy, as well as medication for co-occurring conditions. Long-term effects of autism in children can vary, but may include difficulties with social relationships, academic performance, and emotional regulation. Early diagnosis and treatment can help improve outcomes and prevent long-term complications."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Autism in adults",
+                "patterns": [
+                  "Can adults have autism?",
+                  "How is autism treated in adults?"
+                ],
+                "responses": [
+                  "Yes, autism can be diagnosed in adults, although it is often not diagnosed until later in life. Treatment for autism in adults usually involves a combination of therapies, such as behavioral therapy and speech therapy, as well as medication for co-occurring conditions. Adults with autism may also benefit from support groups and coaching to help manage their symptoms."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Anemia",
+                "patterns": [
+                  "What is anemia?",
+                  "What are the symptoms of anemia?",
+                  "How is anemia diagnosed?",
+                  "How is anemia treated?"
+                ],
+                "responses": [
+                  "Anemia is a condition in which the body does not have enough red blood cells or hemoglobin, which is the protein in red blood cells that carries oxygen. Symptoms of anemia may include fatigue, weakness, pale skin, shortness of breath, and dizziness. Anemia is diagnosed through a blood test to measure red blood cells and hemoglobin levels. Treatment for anemia depends on the underlying cause, but may include dietary changes, iron supplements, or other medications."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Iron-deficiency anemia",
+                "patterns": [
+                  "What is iron-deficiency anemia?",
+                  "What are the causes of iron-deficiency anemia?"
+                ],
+                "responses": [
+                  "Iron-deficiency anemia is a common type of anemia that occurs when the body does not have enough iron to produce hemoglobin. Causes of iron-deficiency anemia may include inadequate dietary intake of iron, blood loss due to injury or menstruation, or conditions that affect the body's ability to absorb iron."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Anemia and pregnancy",
+                "patterns": [
+                  "How does anemia affect pregnancy?",
+                  "Can anemia harm the baby during pregnancy?"
+                ],
+                "responses": [
+                  "Anemia during pregnancy can increase the risk of complications for both the mother and the baby. Severe anemia can lead to preterm birth, low birth weight, and developmental delays in the baby. Pregnant women should be screened for anemia and treated as necessary to prevent these complications."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Sickle cell anemia",
+                "patterns": [
+                  "What is sickle cell anemia?",
+                  "What are the symptoms of sickle cell anemia?",
+                  "How is sickle cell anemia treated?"
+                ],
+                "responses": [
+                  "Sickle cell anemia is a genetic disorder in which the body produces abnormal hemoglobin, which causes red blood cells to become rigid and form a crescent or sickle shape. Symptoms of sickle cell anemia may include pain, fatigue, shortness of breath, and increased risk of infections. Treatment for sickle cell anemia may include medications to manage pain and prevent complications, blood transfusions, and bone marrow transplants in severe cases."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Aplastic anemia",
+                "patterns": [
+                  "What is aplastic anemia?",
+                  "What are the causes of aplastic anemia?"
+                ],
+                "responses": [
+                  "Aplastic anemia is a rare type of anemia in which the bone marrow does not produce enough red blood cells, white blood cells, and platelets. Causes of aplastic anemia may include exposure to certain chemicals, radiation therapy, or viral infections."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Autoimmune disease",
+                "patterns": [
+                  "What is an autoimmune disease?",
+                  "What are the common autoimmune diseases?",
+                  "How are autoimmune diseases treated?"
+                ],
+                "responses": [
+                  "Autoimmune diseases are conditions in which the body's immune system mistakenly attacks its own healthy cells and tissues. Common autoimmune diseases include rheumatoid arthritis, lupus, multiple sclerosis, and type 1 diabetes. Treatment for autoimmune diseases may include medications to suppress the immune system, manage symptoms, or replace hormones or enzymes that are not being produced properly."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Rheumatoid arthritis",
+                "patterns": [
+                  "What is rheumatoid arthritis?",
+                  "What are the symptoms of rheumatoid arthritis?",
+                  "How is rheumatoid arthritis treated?"
+                ],
+                "responses": [
+                  "Rheumatoid arthritis is a chronic autoimmune disease that affects the joints, causing pain, stiffness, and swelling. Other symptoms may include fatigue, fever, and weight loss. Treatment for rheumatoid arthritis may include medications to manage pain and inflammation, physical therapy, or surgery in severe cases."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Lupus",
+                "patterns": [
+                  "What is lupus?",
+                  "What are the symptoms of lupus?",
+                  "How is lupus treated?"
+                ],
+                "responses": [
+                  "Lupus is a chronic autoimmune disease that can affect many parts of the body, including the skin, joints, kidneys, and nervous system. Symptoms of lupus may include joint pain, rash, fever, and fatigue. Treatment for lupus may include medications to manage symptoms and prevent flares, as well as lifestyle changes such as reducing stress and avoiding triggers that can exacerbate symptoms."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Multiple sclerosis",
+                "patterns": [
+                  "What is multiple sclerosis?",
+                  "What are the symptoms of multiple sclerosis?",
+                  "How is multiple sclerosis treated?"
+                ],
+                "responses": [
+                  "Multiple sclerosis is a chronic autoimmune disease that affects the central nervous system, causing a range of symptoms including muscle weakness, tremors, and problems with coordination and balance. Treatment for multiple sclerosis may include medications to slow the progression of the disease and manage symptoms, as well as physical therapy and lifestyle changes such as exercise and a healthy diet."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Type 1 diabetes",
+                "patterns": [
+                  "What is type 1 diabetes?",
+                  "What are the symptoms of type 1 diabetes?",
+                  "How is type 1 diabetes treated?"
+                ],
+                "responses": [
+                  "Type 1 diabetes is an autoimmune disease in which the body's immune system attacks and destroys the cells in the pancreas that produce insulin. Symptoms of type 1 diabetes may include frequent urination, excessive thirst, and fatigue. Treatment for type 1 diabetes involves monitoring blood sugar levels and administering insulin through injections or an insulin pump."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Asperger's Syndrome",
+                "patterns": [
+                  "What is Asperger's Syndrome?",
+                  "What are the symptoms of Asperger's Syndrome?",
+                  "How is Asperger's Syndrome treated?"
+                ],
+                "responses": [
+                  "Asperger's Syndrome is a developmental disorder that affects social interaction, communication, and behavior. Symptoms may include difficulty with social interaction, repetitive behaviors, and intense interests in specific topics. Treatment for Asperger's Syndrome may involve therapy and medications to manage symptoms and improve social skills."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Asperger's Syndrome diagnosis",
+                "patterns": [
+                  "How is Asperger's Syndrome diagnosed?",
+                  "What are the diagnostic criteria for Asperger's Syndrome?"
+                ],
+                "responses": [
+                  "Asperger's Syndrome is typically diagnosed based on a comprehensive evaluation that includes assessments of social skills, communication, and behavior. Diagnostic criteria include difficulties with social interaction and repetitive behaviors, as well as the absence of language or cognitive delays."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Asperger's Syndrome treatment",
+                "patterns": [
+                  "What are the treatment options for Asperger's Syndrome?",
+                  "How can Asperger's Syndrome be managed?"
+                ],
+                "responses": [
+                  "Treatment for Asperger's Syndrome may involve therapy to help individuals develop social skills and cope with anxiety, as well as medications to manage symptoms such as depression or hyperactivity. Additionally, some individuals with Asperger's Syndrome may benefit from support groups and specialized education programs that cater to their specific needs."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Brain Tumours",
+                "patterns": [
+                  "What are brain tumours?",
+                  "What are the symptoms of brain tumours?",
+                  "How are brain tumours treated?"
+                ],
+                "responses": [
+                  "Brain tumours are abnormal growths of cells in the brain that can be cancerous or noncancerous. Symptoms may include headaches, seizures, changes in vision, and difficulty with speech or movement. Treatment for brain tumours may involve surgery, radiation therapy, and chemotherapy, depending on the type and location of the tumour."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Brain Tumours diagnosis",
+                "patterns": [
+                  "How are brain tumours diagnosed?",
+                  "What tests are used to diagnose brain tumours?"
+                ],
+                "responses": [
+                  "Diagnosis of brain tumours may involve a combination of imaging tests, such as MRI or CT scans, and a biopsy to determine the type and grade of the tumour. In some cases, blood tests or neurological exams may also be conducted to assess cognitive function and other neurological symptoms."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Brain Tumours treatment",
+                "patterns": [
+                  "What are the treatment options for brain tumours?",
+                  "How can brain tumours be treated?"
+                ],
+                "responses": [
+                  "Treatment for brain tumours depends on the type, size, and location of the tumour, as well as the patient's overall health. Treatment options may include surgery to remove the tumour, radiation therapy to destroy cancer cells, and chemotherapy to kill cancer cells that have spread beyond the tumour site. In some cases, a combination of treatments may be recommended."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Bird Flu",
+                "patterns": [
+                  "What is bird flu?",
+                  "How does bird flu spread?",
+                  "What are the symptoms of bird flu?"
+                ],
+                "responses": [
+                  "Bird flu, or avian influenza, is a viral infection that primarily affects birds but can also be transmitted to humans. It spreads through contact with infected birds or their secretions, such as feces or saliva. Symptoms of bird flu in humans may include fever, cough, sore throat, muscle aches, and respiratory distress."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Bird Flu prevention",
+                "patterns": [
+                  "How can bird flu be prevented?",
+                  "What measures can be taken to prevent bird flu?"
+                ],
+                "responses": [
+                  "Prevention of bird flu involves avoiding contact with infected birds or their secretions, such as feces or saliva. People who work with birds, such as poultry farmers or veterinarians, should take precautions such as wearing protective clothing and washing their hands frequently. In addition, poultry should be cooked thoroughly before consumption to kill any viruses that may be present."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Bird Flu treatment",
+                "patterns": [
+                  "How is bird flu treated?",
+                  "What medications are used to treat bird flu?"
+                ],
+                "responses": [
+                  "Treatment for bird flu in humans may involve antiviral medications such as oseltamivir or zanamivir. These medications may help reduce the severity of symptoms and prevent complications. In some cases, hospitalization may be necessary to provide supportive care such as oxygen therapy or mechanical ventilation."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Bipolar Disorder",
+                "patterns": [
+                  "What is bipolar disorder?",
+                  "What are the symptoms of bipolar disorder?"
+                ],
+                "responses": [
+                  "Bipolar disorder is a mental health condition characterized by episodes of extreme mood swings. These episodes may involve periods of elevated or manic moods as well as periods of depression. Symptoms may include changes in sleep patterns, appetite, energy level, and ability to think or concentrate."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Bipolar Disorder causes",
+                "patterns": [
+                  "What causes bipolar disorder?",
+                  "Is bipolar disorder hereditary?"
+                ],
+                "responses": [
+                  "The exact cause of bipolar disorder is unknown, but it is believed to be caused by a combination of genetic, environmental, and biological factors. Bipolar disorder is often hereditary, meaning that it may be passed down from parents to their children."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Bipolar Disorder treatment",
+                "patterns": [
+                  "How is bipolar disorder treated?",
+                  "What medications are used to treat bipolar disorder?"
+                ],
+                "responses": [
+                  "Treatment for bipolar disorder may involve a combination of medication and therapy. Mood stabilizers such as lithium or valproic acid may be used to help control mood swings. Antipsychotic medications may also be used to help manage symptoms. Therapy such as cognitive behavioral therapy or family therapy may be used to help individuals manage their symptoms and develop coping strategies."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Breast Cancer",
+                "patterns": [
+                  "What is breast cancer?",
+                  "What are the symptoms of breast cancer?"
+                ],
+                "responses": [
+                  "Breast cancer is a type of cancer that starts in the breast tissue. Symptoms may include a lump or thickening in the breast, changes in the size or shape of the breast, nipple discharge, or changes in the skin of the breast."
+                ],
+                "context_set": ""
+              },
+          
+          
+              {
+                "tag": "Breast Cancer prevention",
+                "patterns": [
+                  "What can be done to prevent breast cancer?",
+                  "Are there any lifestyle changes that can reduce the risk of breast cancer?"
+                ],
+                "responses": [
+                  "Some lifestyle changes that may help reduce the risk of breast cancer include maintaining a healthy weight, exercising regularly, limiting alcohol intake, and avoiding tobacco products. Women may also consider regular breast cancer screenings and genetic testing if there is a family history of breast cancer."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Breast Cancer treatment",
+                "patterns": [
+                  "How is breast cancer treated?",
+                  "What are the treatment options for breast cancer?"
+                ],
+                "responses": [
+                  "Treatment for breast cancer may depend on the stage of the cancer and other individual factors. Treatment options may include surgery, radiation therapy, chemotherapy, hormone therapy, or targeted therapy. In some cases, a combination of treatments may be used."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Celiac Disease",
+                "patterns": [
+                  "What is celiac disease?",
+                  "What are the symptoms of celiac disease?"
+                ],
+                "responses": [
+                  "Celiac disease is a digestive disorder that damages the small intestine and interferes with the absorption of nutrients from food. Symptoms may include diarrhea, abdominal pain, bloating, and weight loss."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Celiac Disease causes",
+                "patterns": [
+                  "What causes celiac disease?",
+                  "Is celiac disease hereditary?"
+                ],
+                "responses": [
+                  "Celiac disease is caused by an immune response to gluten, a protein found in wheat, barley, and rye. It is believed to be a combination of genetic and environmental factors, and may run in families."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Celiac Disease diagnosis",
+                "patterns": [
+                  "How is celiac disease diagnosed?",
+                  "What tests are used to diagnose celiac disease?"
+                ],
+                "responses": [
+                  "Celiac disease can be diagnosed through a blood test to detect certain antibodies, and a biopsy of the small intestine to check for damage. It is important to continue eating gluten before testing to ensure accurate results."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Celiac Disease treatment",
+                "patterns": [
+                  "How is celiac disease treated?",
+                  "What is the treatment for celiac disease?"
+                ],
+                "responses": [
+                  "The only effective treatment for celiac disease is a strict gluten-free diet, which involves avoiding all foods that contain gluten. A dietitian can help create a healthy, balanced meal plan that is free of gluten."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Cerebral Palsy",
+                "patterns": [
+                  "What is cerebral palsy?",
+                  "What are the symptoms of cerebral palsy?"
+                ],
+                "responses": [
+                  "Cerebral palsy is a group of neurological disorders that affect movement, balance, and posture. Symptoms may include stiff muscles, tremors, difficulty speaking, and problems with coordination."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Cerebral Palsy causes",
+                "patterns": [
+                  "What causes cerebral palsy?",
+                  "Is cerebral palsy hereditary?"
+                ],
+                "responses": [
+                  "Cerebral palsy is caused by damage to the developing brain, which can occur before, during, or shortly after birth. The exact cause is not always known, but it can be a combination of genetic and environmental factors."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Cerebral Palsy diagnosis",
+                "patterns": [
+                  "How is cerebral palsy diagnosed?",
+                  "What tests are used to diagnose cerebral palsy?"
+                ],
+                "responses": [
+                  "Cerebral palsy can be diagnosed through a physical exam, developmental screening, and medical imaging tests such as MRI and CT scans. Diagnosis usually occurs in early childhood."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Cerebral Palsy treatment",
+                "patterns": [
+                  "How is cerebral palsy treated?",
+                  "What is the treatment for cerebral palsy?"
+                ],
+                "responses": [
+                  "There is no cure for cerebral palsy, but treatment can help manage symptoms and improve quality of life. Treatment options may include physical therapy, occupational therapy, speech therapy, medication, and surgery."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Crohn's Disease",
+                "patterns": [
+                  "What is Crohn's disease?",
+                  "What are the symptoms of Crohn's disease?"
+                ],
+                "responses": [
+                  "Crohn's disease is an inflammatory bowel disease that affects the digestive tract. Symptoms may include abdominal pain, diarrhea, weight loss, and fatigue."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Crohn's Disease causes",
+                "patterns": [
+                  "What causes Crohn's disease?",
+                  "Is Crohn's disease hereditary?"
+                ],
+                "responses": [
+                  "The exact cause of Crohn's disease is unknown, but it is thought to be a combination of genetic, environmental, and immune system factors. It is not always hereditary, but having a family member with the disease can increase your risk."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Crohn's Disease diagnosis",
+                "patterns": [
+                  "How is Crohn's disease diagnosed?",
+                  "What tests are used to diagnose Crohn's disease?"
+                ],
+                "responses": [
+                  "Crohn's disease can be diagnosed through a physical exam, blood tests, stool tests, and imaging tests such as CT scans and colonoscopy. A biopsy of the affected tissue may also be taken."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Crohn's Disease treatment",
+                "patterns": [
+                  "How is Crohn's disease treated?",
+                  "What is the treatment for Crohn's disease?"
+                ],
+                "responses": [
+                  "Treatment for Crohn's disease may include medication, dietary changes, and surgery. The goal is to reduce inflammation, manage symptoms, and prevent complications."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Chlamydia",
+                "patterns": ["What is chlamydia?", "What are the symptoms of chlamydia?"],
+                "responses": [
+                  "Chlamydia is a sexually transmitted infection caused by the bacteria Chlamydia trachomatis. Symptoms may include genital discharge, pain during sex or urination, and abdominal pain. However, many people with chlamydia may not experience any symptoms."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Chlamydia transmission",
+                "patterns": [
+                  "How is chlamydia transmitted?",
+                  "What are the ways to get chlamydia?"
+                ],
+                "responses": [
+                  "Chlamydia is most commonly spread through sexual contact, including vaginal, anal, or oral sex. It can also be passed from mother to baby during childbirth."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Chlamydia diagnosis",
+                "patterns": [
+                  "How is chlamydia diagnosed?",
+                  "What tests are used to diagnose chlamydia?"
+                ],
+                "responses": [
+                  "Chlamydia can be diagnosed through a urine test or swab test of the affected area. It is important to get tested regularly if you are sexually active or have multiple partners."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Chlamydia treatment",
+                "patterns": [
+                  "How is chlamydia treated?",
+                  "What is the treatment for chlamydia?"
+                ],
+                "responses": [
+                  "Chlamydia can be treated with antibiotics, such as azithromycin or doxycycline. It is important to complete the full course of antibiotics to ensure the infection is completely cleared."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "COVID-19 symptoms",
+                "patterns": [
+                  "What are the symptoms of COVID-19?",
+                  "How do I know if I have COVID-19?"
+                ],
+                "responses": [
+                  "The symptoms of COVID-19 can vary, but common ones include fever, cough, shortness of breath, fatigue, body aches, loss of taste or smell, and sore throat. If you have any of these symptoms, it is important to get tested and isolate to prevent the spread of the virus."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "COVID-19 transmission",
+                "patterns": [
+                  "How is COVID-19 transmitted?",
+                  "What are the ways to get COVID-19?"
+                ],
+                "responses": [
+                  "COVID-19 is mainly spread through respiratory droplets when an infected person talks, coughs, or sneezes. It can also be spread by touching a surface contaminated with the virus and then touching your face."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "COVID-19 prevention",
+                "patterns": [
+                  "How can I prevent getting COVID-19?",
+                  "What can I do to protect myself from COVID-19?"
+                ],
+                "responses": [
+                  "To prevent getting COVID-19, it is important to practice good hygiene, such as washing your hands frequently and wearing a mask when in public. You should also avoid close contact with others, especially those who are sick, and stay home if you are feeling unwell."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "COVID-19 vaccine",
+                "patterns": [
+                  "Is there a vaccine for COVID-19?",
+                  "How effective is the COVID-19 vaccine?"
+                ],
+                "responses": [
+                  "Yes, there are several vaccines available for COVID-19. The vaccines have been shown to be highly effective in preventing severe illness, hospitalization, and death from COVID-19."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "COVID-19 treatment",
+                "patterns": [
+                  "How is COVID-19 treated?",
+                  "What are the treatments for COVID-19?"
+                ],
+                "responses": [
+                  "Treatment for COVID-19 depends on the severity of the illness. Mild cases can be managed with rest and over-the-counter medications, while severe cases may require hospitalization and oxygen therapy. Several medications, such as remdesivir and dexamethasone, have also been approved for the treatment of COVID-19."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Chikungunya",
+                "patterns": [
+                  "What is chikungunya?",
+                  "What are the symptoms of chikungunya?",
+                  "How is chikungunya transmitted?",
+                  "What is the treatment for chikungunya?",
+                  "How can chikungunya be prevented?"
+                ],
+                "responses": [
+                  "Chikungunya is a viral disease transmitted to humans by infected mosquitoes, primarily the Aedes aegypti and Aedes albopictus species.",
+                  "The symptoms of chikungunya typically include fever, joint pain, headache, muscle pain, joint swelling, and rash. The disease is rarely fatal, but the symptoms can be severe and debilitating, lasting for several weeks to months.",
+                  "Chikungunya is primarily transmitted through the bite of infected mosquitoes. It can also be transmitted through blood transfusions and from mother to child during childbirth.",
+                  "There is no specific treatment for chikungunya, and the focus is on relieving symptoms with rest, fluids, and over-the-counter pain relievers.",
+                  "Prevention of chikungunya involves avoiding mosquito bites by wearing protective clothing and using insect repellents, as well as eliminating mosquito breeding sites around homes and communities."
+                ],
+                "context_set": ""
+              },
+          
+              {
+                "tag": "Dengue",
+                "patterns": [
+                  "What is dengue?",
+                  "What are the symptoms of dengue?",
+                  "How is dengue transmitted?",
+                  "What is the treatment for dengue?",
+                  "How to prevent dengue?"
+                ],
+                "responses": [
+                  "Dengue is a viral disease transmitted by infected mosquitoes. Symptoms include high fever, severe headache, joint and muscle pain, nausea and vomiting, and a rash. In severe cases, it can lead to dengue hemorrhagic fever or dengue shock syndrome, which can be fatal. There is no specific treatment for dengue, and the focus is on relieving symptoms with rest, fluids, and over-the-counter pain relievers. Prevention involves avoiding mosquito bites and eliminating breeding sites."
+                ],
+                "context_set": ""
+              }
+          
 
 
 
