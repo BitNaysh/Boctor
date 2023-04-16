@@ -251,9 +251,39 @@
          "context_set": ""
         },
 
-    {"tag": "CPR",
+        {"tag": "CPR",
          "patterns": ["How to give CPR??", "what to do in a CPR?", "What steps to take in a CPR??", "How to help a drowning person in CPR?"],
          "responses": ["1)For an adult or child, place the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other. For an infant, place two fingers on the breastbone. 2)For an adult or child, press down at least 2 inches. Make sure not to press on ribs. For an infant, press down about 1 and 1/2 inches. Make sure not to press on the end of the breastbone. 3)Do chest compressions only, at the rate of 100-120 per minute or more. Let the chest rise completely between pushes. 4)Check to see if the person has started breathing."],
+         "context_set": ""
+        },
+
+        {"tag": "Diabetes",
+         "patterns": ["What are common symptoms of diabetes?", "How to manage diabetes?", "Which medicine to take for diabetes?", "What are the best ways to prevent diabetes?"],
+         "responses": ["Diabetes can cause symptoms such as frequent urination, thirst, hunger, and blurred vision. You can try managing your blood sugar levels through diet and exercise, and taking medication such as insulin or metformin. If you have diabetes, it's important to regularly monitor your blood sugar levels and work with your doctor to manage your condition."],
+         "context_set": ""
+        },
+
+        {"tag": "Asthma",
+         "patterns": ["What are common symptoms of asthma?", "How to manage asthma?", "Which medicine to take for asthma?", "What are the best ways to prevent asthma attacks?"],
+         "responses": ["Asthma can cause symptoms such as wheezing, shortness of breath, and chest tightness. You can try using an inhaler with bronchodilator medication, such as albuterol. If your asthma symptoms persist or are severe, consult your doctor."],
+         "context_set": ""
+        },
+
+        {"tag": "Depression",
+         "patterns": ["What are common symptoms of depression?", "How to manage depression?", "Which medication or therapy to take for depression?", "What are the best ways to prevent depression?"],
+         "responses": ["Depression can cause symptoms such as persistent feelings of sadness, hopelessness, or guilt, loss of interest in activities, changes in appetite or sleep, and difficulty concentrating. You can try seeking support from a mental health professional, such as a therapist or psychiatrist, and considering medication or therapy options. It's also important to practice self-care, such as getting enough rest, exercise, and social support, and avoiding drugs or alcohol."],
+         "context_set": ""
+        },
+
+        {"tag": "Mental health",
+         "patterns": ["What are common symptoms of mental health issues?", "How to manage mental health issues?", "Which medication or therapy to take for mental health issues?", "What are the best ways to prevent mental health issues?"],
+         "responses": ["Mental health issues can cause symptoms such as changes in mood, behavior, or thoughts, feelings of sadness or anxiety, difficulty concentrating, and changes in sleep or appetite. You can try seeking support from a mental health professional, such as a therapist or psychiatrist, and considering medication or therapy options. It's also important to practice self-care, such as getting enough rest, exercise, and social support, and avoiding drugs or alcohol."],
+         "context_set": ""
+        },
+
+        {"tag": "Anxiety",
+         "patterns": ["What are common symptoms of anxiety?", "How to manage anxiety?", "Which medication or therapy to take for anxiety?", "What are the best ways to prevent anxiety?"],
+         "responses": ["Anxiety can cause symptoms such as excessive worry or fear, restlessness, irritability, and physical symptoms such as trembling or sweating. You can try seeking support from a mental health professional, such as a therapist or psychiatrist, and considering medication or therapy options. It's also important to practice self-care, such as getting enough rest, exercise, and social support, and avoiding drugs or alcohol."],
          "context_set": ""
         },
 
@@ -261,6 +291,159 @@
          "patterns": ["How do you treat a Fracture?", "what to do if i get a Fracture?", "Which medicine to take if I have a Fracture?", "How to cure a Fracture?"],
          "responses": ["1)Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing. 2)Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort. 3)Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. 4)Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."],
          "context_set": ""
+        },
+
+        {"tag": "Bipolar disorder",
+         "patterns": ["What are common symptoms of bipolar disorder?", "How to manage bipolar disorder?", "Which medication or therapy to take for bipolar disorder?", "What are the best ways to prevent bipolar disorder?"],
+         "responses": ["Bipolar disorder can cause symptoms such as shifts in mood, energy, and activity levels, including episodes of mania or hypomania and episodes of depression. You can try seeking support from a mental health professional, such as a therapist or psychiatrist, and considering medication or therapy options. It's also important to practice self-care, such as getting enough rest, exercise, and social support, and avoiding drugs or alcohol."],
+         "context_set": ""
+        },
+
+        {"tag": "Insomnia",
+         "patterns": ["What are common symptoms of insomnia?", "How to cure insomnia?", "Which medicine to take for insomnia?", "What are the best ways to prevent insomnia?"],
+         "responses": ["Insomnia can cause difficulty falling or staying asleep, or waking up too early. You can try establishing a regular sleep routine, creating a sleep-conducive environment, and avoiding caffeine and electronics before bed. If your insomnia persists or is severe, consult your doctor."],
+         "context_set": ""
+        },
+
+        {"tag": "Hypertension",
+         "patterns": ["What are common symptoms of hypertension?", "How to manage hypertension?", "Which medicine to take for hypertension?", "What are the best ways to prevent hypertension?"],
+         "responses": ["Hypertension, or high blood pressure, often has no symptoms. You can try managing your blood pressure through lifestyle changes such as eating a healthy diet, exercising regularly, and limiting alcohol and tobacco use. If your blood pressure is consistently high, your doctor may recommend medication."],
+         "context_set": ""
+        },
+
+        {"tag": "Flu",
+         "patterns": ["What are common symptoms of the flu?", "How to cure the flu?", "Which medicine to take for the flu?", "What are the best ways to prevent the flu?"],
+         "responses": ["The flu can cause symptoms such as fever, cough, sore throat, body aches, and fatigue. You can try getting plenty of rest, staying hydrated, and taking over-the-counter pain relievers such as ibuprofen or acetaminophen. If your flu symptoms persist or are severe, consult your doctor."],
+         "context_set": ""
+        },
+
+        {"tag": "Allergies",
+         "patterns": ["What are common symptoms of allergies?", "How to cure allergies?", "Which medicine to take for allergies?", "What are the best ways to prevent allergies?"],
+         "responses": ["Allergies can cause symptoms such as runny nose, sneezing, itchy eyes or skin, and hives. You can try over-the-counter antihistamines, such as loratadine or cetirizine. If your allergies persist or are severe, consult your doctor."],
+         "context_set": ""
+        },
+
+        {"tag": "High blood pressure",
+         "patterns": ["What are common symptoms of high blood pressure?", "How to manage high blood pressure?", "Which medication or therapy to take for high blood pressure?", "What are the best ways to prevent high blood pressure?"],
+         "responses": ["High blood pressure may not cause any symptoms, but it can increase your risk of heart disease and stroke. You can try managing your blood pressure through diet and exercise, and taking medication as prescribed by your healthcare provider. It's also important to monitor your blood pressure regularly and seek medical attention for any complications."],
+         "context_set": ""
+        },
+
+        {"tag": "Heart disease",
+         "patterns": ["What are common symptoms of heart disease?", "How to manage heart disease?", "Which medication or therapy to take for heart disease?", "What are the best ways to prevent heart disease?"],
+         "responses": ["Heart disease can cause symptoms such as chest pain, shortness of breath, and fatigue. You can try managing your heart disease through lifestyle changes, such as diet and exercise, and taking medication or undergoing surgery as prescribed by your healthcare provider. It's also important to monitor your symptoms regularly and seek medical attention for any complications."],
+         "context_set": ""
+        },
+
+        {"tag": "Schizophrenia",
+         "patterns": ["What are common symptoms of schizophrenia?", "How to manage schizophrenia?", "Which medication or therapy to take for schizophrenia?", "What are the best ways to prevent schizophrenia?"],
+         "responses": ["Schizophrenia can cause symptoms such as hallucinations, delusions, disordered thinking or speech, and changes in mood or behavior. You can try seeking support from a mental health professional, such as a therapist or psychiatrist, and considering medication or therapy options. It's also important to practice self-care, such as getting enough rest, exercise, and social support, and avoiding drugs or alcohol."],
+         "context_set": ""
+        },
+
+        {"tag": "Pregnancy",
+         "patterns": ["What are common symptoms of pregnancy?", "How to manage pregnancy?", "Which medication or therapy to take during pregnancy?", "What are the best ways to ensure a healthy pregnancy?", "What are common prenatal tests?", "What are some safe exercises to do during pregnancy?"],
+         "responses": ["Common symptoms of pregnancy include nausea, fatigue, and mood changes. It's important to manage your pregnancy through prenatal care, such as regular check-ups with your healthcare provider and taking prenatal vitamins. Your healthcare provider can also recommend medication or therapy options if needed. Some common prenatal tests include ultrasound and blood tests to check for genetic conditions or other health issues. Safe exercises during pregnancy include walking, swimming, and yoga. It's also important to avoid certain foods and substances, such as alcohol and tobacco, to ensure a healthy pregnancy."],
+         "context_set": ""
+        },
+
+        {"tag": "Hernia",
+         "patterns": ["What is a hernia?", "What are the symptoms of a hernia?", "How is a hernia diagnosed?", "What are the treatment options for a hernia?", "How long does it take to recover from hernia surgery?"],
+         "responses": ["A hernia occurs when an organ or fatty tissue squeezes through a weak spot in a surrounding muscle or connective tissue. Symptoms of a hernia include a bulge or lump in the affected area, pain or discomfort, and weakness or pressure in the abdomen. Diagnosis is typically done through a physical exam and imaging tests. Treatment options include watchful waiting, lifestyle changes, and surgery. Recovery time from hernia surgery varies but can take several weeks."],
+         "context_set": ""
+        },
+
+        {"tag": "Cancer",
+         "patterns": ["What is cancer?", "What are the symptoms of cancer?", "How is cancer diagnosed?", "What are the treatment options for cancer?", "What are some common side effects of cancer treatment?"],
+         "responses": ["Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells in the body. Symptoms of cancer can vary depending on the type and stage of the cancer, but may include fatigue, unexplained weight loss, and changes in the skin or bowel habits. Diagnosis is typically done through a combination of imaging tests, blood tests, and biopsies. Treatment options include surgery, chemotherapy, radiation therapy, and immunotherapy. Common side effects of cancer treatment include nausea, fatigue, and hair loss."],
+         "context_set": ""
+        },
+
+        
+        {"tag": "Hernia",
+         "patterns": ["What is a hernia?", "What are the symptoms of a hernia?", "How is a hernia diagnosed?", "What are the treatment options for a hernia?", "How long does it take to recover from hernia surgery?"],
+         "responses": ["A hernia occurs when an organ or fatty tissue squeezes through a weak spot in a surrounding muscle or connective tissue. Symptoms of a hernia include a bulge or lump in the affected area, pain or discomfort, and weakness or pressure in the abdomen. Diagnosis is typically done through a physical exam and imaging tests. Treatment options include watchful waiting, lifestyle changes, and surgery. Recovery time from hernia surgery varies but can take several weeks."],
+         "context_set": ""
+        },
+
+        {"tag": "COVID-19",
+         "patterns": ["What is COVID-19?", "What are the symptoms of COVID-19?", "How is COVID-19 diagnosed?", "What are the treatment options for COVID-19?", "How can I prevent getting COVID-19?"],
+         "responses": ["COVID-19 is an infectious respiratory illness caused by the SARS-CoV-2 virus. Symptoms of COVID-19 can range from mild to severe and may include fever, cough, and difficulty breathing. Diagnosis is typically done through a combination of symptoms and laboratory tests. Treatment options for COVID-19 include supportive care and antiviral medications. To prevent getting COVID-19, it's important to practice good hygiene such as washing your hands frequently and wearing a mask in public."],
+         "context_set": ""
+        },
+
+        {"tag": "Vaccines",
+         "patterns": ["What are vaccines?", "How do vaccines work?", "What are the benefits of getting vaccinated?", "What are the side effects of vaccines?", "How are vaccines developed and tested?"],
+         "responses": ["Vaccines are a way to help protect against infectious diseases by training the immune system to recognize and fight off specific pathogens. They work by introducing a harmless form of the virus or bacteria into the body, which triggers an immune response. Benefits of getting vaccinated include reduced risk of illness, fewer hospitalizations and deaths, and protection for vulnerable populations. Side effects of vaccines are typically mild and short-lived, such as soreness at the injection site or a low-grade fever. Vaccines undergo rigorous testing and development to ensure their safety and effectiveness."],
+         "context_set": ""
+        },
+
+        {"tag": "Sexual Dysfunction",
+         "patterns": ["What is sexual dysfunction?", "What are the different types of sexual dysfunction?", "What are the causes of sexual dysfunction?", "How is sexual dysfunction diagnosed?", "What are the treatment options for sexual dysfunction?"],
+         "responses": ["Sexual dysfunction refers to a range of problems that can occur during sexual activity, including difficulty achieving or maintaining an erection, reduced libido, or pain during sex. Different types of sexual dysfunction include erectile dysfunction, premature ejaculation, and hypoactive sexual desire disorder. Causes of sexual dysfunction may include physical or psychological factors. Diagnosis is typically done through a combination of symptoms and medical tests. Treatment options for sexual dysfunction include medication, therapy, or lifestyle changes."],
+         "context_set": ""
+        },
+
+        {"tag": "STIs",
+         "patterns": ["What are sexually transmitted infections (STIs)?", "What are the symptoms of STIs?", "How are STIs diagnosed?", "What are the treatment options for STIs?", "How can I prevent getting STIs?"],
+         "responses": ["Sexually transmitted infections (STIs) are infections that are spread through sexual contact. Symptoms of STIs can vary depending on the specific infection but may include sores or rashes, discharge, or pain during sex. Diagnosis is typically done through a combination of symptoms and laboratory tests. Treatment options for STIs include medication, surgery, or lifestyle changes. To prevent getting STIs, it's important to practice safe sex, get tested regularly, and communicate with sexual partners about sexual history."],
+         "context_set": ""
+        },
+
+        {"tag": "Contraception",
+         "patterns": ["What is contraception?", "How do contraceptives work?", "What are the different types of contraceptives?", "What are the benefits and risks of using contraceptives?", "How can I choose the right contraceptive for me?"],
+         "responses": ["Contraception is a method of preventing pregnancy by using various techniques or devices. Contraceptives work by preventing sperm from fertilizing an egg or by stopping ovulation. Different types of contraceptives include hormonal methods, barrier methods, intrauterine devices (IUDs), and natural family planning. Benefits of using contraceptives include reduced risk of unintended pregnancy and sexually transmitted infections. Risks may include side effects such as nausea or headaches or a failure rate in preventing pregnancy. It is important to consult with a healthcare provider to choose the right contraceptive for you."],
+         "context_set": ""
+        },
+
+        {"tag": "Condom Use",
+         "patterns": ["How do condoms work?", "What are the benefits of using condoms?", "What are the different types of condoms?", "How do I use a condom correctly?", "What do I do if a condom breaks?"],
+         "responses": ["Condoms are a form of barrier contraception that help prevent the spread of sexually transmitted infections and unwanted pregnancy. Condoms work by creating a barrier between the penis and the vagina, anus, or mouth, preventing the exchange of bodily fluids. Benefits of using condoms include protection against STIs and pregnancy. Different types of condoms include latex, polyurethane, and lambskin. To use a condom correctly, make sure to check the expiration date, open the package carefully, and pinch the tip of the condom before rolling it down the penis. If a condom breaks during sex, stop immediately and use emergency contraception and/or get tested for STIs."],
+         "context_set": ""
+        },
+
+        {"tag": "Yeast Infections",
+         "patterns": ["What are the symptoms of a yeast infection?", "What causes yeast infections?", "How can I prevent yeast infections?", "How are yeast infections treated?", "Can yeast infections be transmitted sexually?"],
+         "responses": ["Symptoms of a yeast infection may include itching, burning, and a white, clumpy discharge. Yeast infections are caused by an overgrowth of the fungus Candida. Ways to prevent yeast infections include wearing cotton underwear, avoiding scented products, and maintaining good hygiene. Yeast infections can be treated with over-the-counter antifungal medications or prescription medication. Yeast infections are not typically considered a sexually transmitted infection, but can be transmitted during sex."],
+         "context_set": ""
+        },
+
+        {"tag": "Choosing the Right Sanitary Products",
+         "patterns": ["What are the different types of sanitary products?", "How do I choose the right size for a pad or tampon?", "What is a menstrual cup and how do I use it?", "What are the advantages of using reusable menstrual products?", "Can I use period panties instead of pads or tampons?"],
+         "responses": ["There are different types of sanitary products, including pads, tampons, menstrual cups, and period panties. To choose the right size for a pad or tampon, consider your flow and the absorbency level of the product. A menstrual cup is a reusable alternative to pads and tampons that is inserted into the vagina to collect menstrual blood. Advantages of using reusable menstrual products include cost savings and environmental benefits. Period panties are absorbent underwear that can be worn alone or with another sanitary product."],
+         "context_set": ""
+        },
+
+        {"tag": "Heavy Periods",
+         "patterns": ["What is considered a heavy period?", "What are the causes of heavy periods?", "How can heavy periods be managed?", "What are the treatment options for heavy periods?", "Can heavy periods be a sign of a more serious health condition?"],
+         "responses": ["A heavy period is typically defined as needing to change a pad or tampon every hour or more frequently. Causes of heavy periods may include hormonal imbalances, fibroids, or endometriosis. Ways to manage heavy periods include using a higher absorbency sanitary product, taking over-the-counter pain relievers, or practicing relaxation techniques. Treatment options for heavy periods may include hormonal birth control, nonsteroidal anti-inflammatory drugs, or surgery. Heavy periods can be a sign of a more serious health condition and should be evaluated by a healthcare provider."],
+         "context_set": ""
+        },
+
+        {"tag": "Menstrual Hygiene",
+         "patterns": ["How often should I change my pad or tampon?", "What is the proper way to clean my genitals during my period?", "Can I have sex during my period?", "How can I manage period-related odor?", "What are the potential health risks of not practicing good menstrual hygiene?"],
+         "responses": ["Pads and tampons should be changed every 4-6 hours, or more frequently if needed. The genitals should be cleaned with mild soap and water during the period. Sex can be safe during the period but may be messy. Period-related odor can be managed by changing pads or tampons frequently and practicing good hygiene. Not practicing good menstrual hygiene can lead to infections or other health problems."],
+         "context_set": ""
+        },
+
+        {"tag": "Penile Pain",
+        "patterns": ["What are the causes of penile pain?", "What are the symptoms of penile pain?", "How is penile pain treated?", "When should I seek medical attention for penile pain?", "Can penile pain be a sign of a more serious condition?"],
+        "responses": ["Causes of penile pain may include physical injury, infection, or inflammation. Symptoms of penile pain may include pain during urination or sex, swelling, or discharge. Treatment for penile pain depends on the underlying cause and may involve medication, surgery, or lifestyle changes. Medical attention should be sought if penile pain is severe or accompanied by other symptoms. Penile pain can be a sign of a more serious condition, such as cancer, and should be evaluated by a healthcare provider."],
+         "context_set": ""
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    ]
 }
