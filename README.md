@@ -1,6 +1,8 @@
 # **Boctor - AI Chatbot Doctor**
 Boctor is an AI chatbot doctor that provides medical consultations and diagnoses to patients. It was developed as part of a hackathon project, and is designed to provide quick and efficient medical services to patients in need. Boctor makes use of advanced machine learning algorithms and natural language processing to understand patient queries and provide accurate medical advice.
 
+Webiste Link: boctor.vercel.app
+
 ## Technologies Used
 Boctor makes use of the following technologies:
 
